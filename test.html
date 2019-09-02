@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div style="height:200px;width:500;" id="app"></div>
+    <div id="switch">111</div>
+    <script>
+            var oSwitch = document.getElementById('switch')
+            var App = document.getElementById('app')
+            var flag = false
+            // document.body.style.backgroundImage = "url('http://www.fanjiani.club/wp-content/uploads/2019/09/205221z0shtuju5bjqk1vf.jpg')"
+            oSwitch.onclick = function () {
+                if (!flag) {
+                    document.body.style.backgroundImage = "url('http://www.fanjiani.club/wp-content/uploads/2019/09/205221z0shtuju5bjqk1vf.jpg')"
+                    this.flag = !this.flag
+                }else{
+                    this.flag = !this.flag 
+                }
+            }
+            </script>
+</body>
+</html>
